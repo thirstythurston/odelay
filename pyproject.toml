@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name='OdelayTools'
+version ='0.1.0'
+authors={name = "Thurston Herricks", email = "thurston.herricks@gmail.com"}
+description='ODELAY-ODELAM Tools and Image Pipeline'
+license='MIT'
+requires-python='>=3.7'
+readme = "README.md"
+dependencies=[
+        'Click',
+        'fast_histogram',
+        'ipython',
+        'h5py',
+        'jinja2',
+        'jupyterlab',
+        'matplotlib',
+        'numpy',
+        'pandas',
+        'paramiko',
+        'pylint',
+        'PyQt5',
+        'PyQtChart',
+        'pyserial',
+        'opencv-python',
+        'opencv-contrib-python',
+        'openpyxl',
+        'sqlalchemy',
+        'scipy',
+        'xlrd',
+    ]
+[project.scripts]
+odelay=odelay:cli
