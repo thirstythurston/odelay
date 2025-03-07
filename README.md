@@ -26,7 +26,7 @@ It was mainly designed for Leica DMI 6000 series microscopes and for Nikon Te200
     |   └── odelayplot.py
     ├── odelaySetConfig.py
     ├── odelay.py
-    └── setup.py
+    └── pyproject.toml
 
 
 # Installing:
