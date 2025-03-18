@@ -130,23 +130,24 @@ Activate conda environment do sequentially:
 ---------------
 
 ODELAY Commands:
-    curexp                List the current experiment directories
-    export-avi            Export avi files use command :>odelay export-avi roi where roi is the ID of the spot or all for all videos 
-    export-csv            Export CSV file tables eg :> odelay export-csv roi or all
-    hpc-avi               Callable function from PBSPRO file not for command line use
-    hpc-checkpaths        Callable function from PBSPRO file not for command line use
-    hpc-init              Callable function from PBSPRO file not for command line use
-    hpc-process           Callable function from PBSPRO file not for command line use
-    initialize            Initialize experiment files for processing 
-    listroi               List the experiment ROI not currently working 
-    plot-gc               Plot a growth curve figure with the Region of interest :>odelay plot-gc roi
-    process               Process region of interest or whole experiment on remote cluster
-    process_locals        Process region of interest on local computer
-    set-data-dir          Set the directory where processed ODELAY data is to be written 
-    set-image-dir         Set the directory where the experiment's images are stored 
-    showroi               Show how the image was stitched from a roi and timepoint :>odelay showroi roi image-number
-    stitchimage           
-    summarize-experiment  Sumerize Experiment into dictionary that can be fed into plotting figure functions
+
+    curexp                List the current experiment directories  
+    export-avi            Export avi files use command :>odelay export-avi roi where roi is the ID of the spot or all for all videos   
+    export-csv            Export CSV file tables eg :> odelay export-csv roi or all  
+    hpc-avi               Callable function from PBSPRO file not for command line use  
+    hpc-checkpaths        Callable function from PBSPRO file not for command line use  
+    hpc-init              Callable function from PBSPRO file not for command line use  
+    hpc-process           Callable function from PBSPRO file not for command line use  
+    initialize            Initialize experiment files for processing   
+    listroi               List the experiment ROI not currently working   
+    plot-gc               Plot a growth curve figure with the Region of interest :>odelay plot-gc roi  
+    process               Process region of interest or whole experiment on remote cluster  
+    process_locals        Process region of interest on local computer  
+    set-data-dir          Set the directory where processed ODELAY data is to be written  
+    set-image-dir         Set the directory where the experiment's images are stored  
+    showroi               Show how the image was stitched from a roi and timepoint :>odelay showroi roi image-number  
+    stitchimage             
+    summarize-experiment  Sumerize Experiment into dictionary that can be fed into plotting figure functions  
 
 enter a command by typing odelay curexp.  This will list the experiment directory and the data directory. 
 set the image and data directories to the experiment you wish to process.  The Image dir is where the images are stored.
